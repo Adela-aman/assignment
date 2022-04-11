@@ -31,6 +31,13 @@ public class test {
 				z = x-y;
 				System.out.println("substraction is "+z);
 				break;
+			case"multi":
+				System.out.println("Enter Two numbers");
+				x = in.nextInt();
+				y = in.nextInt();
+				z = x*y;
+				System.out.println("multiplication is "+z);
+				break;
 
 				
 				default:
