@@ -38,6 +38,15 @@ public class test {
 				z = x*y;
 				System.out.println("multiplication is "+z);
 				break;
+				
+				
+			case"divid":
+				System.out.println("Enter Two numbers");
+				x = in.nextInt();
+				y = in.nextInt();
+				z = x/y;
+				System.out.println("Division is "+z);
+				break;
 
 				
 				default:
